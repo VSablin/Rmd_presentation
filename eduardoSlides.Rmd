@@ -1,0 +1,12 @@
+---
+title: "My Fancy Presentation"
+author: "Eduardo Sánchez Burillo"
+date: "27/1/2020"
+output: ioslides_presentation
+---
+
+## My new slide
+
+```{r, echo = F,fig.align='center',fig.cap='My AWESOME figure'}
+plot(mtcars$wt,mtcars$mpg,xlab="Wt",ylab="MPG")
+```
